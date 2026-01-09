@@ -1,0 +1,241 @@
+{
+  "business": {
+    "name": "HMADI",
+    "owner": "Deisy Jefet Rubio Contreras",
+    "tagline": "Beauty, Coffee & Cheesecake—Your moment of self-care.",
+    "phone": "+1 (555) 123-4567",
+    "email": "hello@hmadi.salon",
+    "address": "Av. Inspiración 123, Centro",
+    "hours": {
+      "weekdays": "Tue–Sun",
+      "time": "10:00–20:00"
+    }
+  },
+  "social": {
+    "instagram": "https://instagram.com/hmadisalon",
+    "facebook": "https://facebook.com/hmadisalon",
+    "tiktok": "https://tiktok.com/@hmadisalon"
+  },
+  "services": [
+    {
+      "id": "haircuts",
+      "category": "Haircuts & Styling",
+      "items": [
+        {
+          "name": "Women's Haircut",
+          "description": "Expert cut tailored to your style and face shape",
+          "duration": "60 min",
+          "price": "$45–$65",
+          "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=90"
+        },
+        {
+          "name": "Men's Haircut",
+          "description": "Classic or modern cuts with precision styling",
+          "duration": "45 min",
+          "price": "$25–$40",
+          "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=90"
+        },
+        {
+          "name": "Color & Highlights",
+          "description": "Premium color treatment with organic products",
+          "duration": "120 min",
+          "price": "$80–$150",
+          "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=800&q=90"
+        },
+        {
+          "name": "Blowout & Styling",
+          "description": "Professional styling for any occasion",
+          "duration": "45 min",
+          "price": "$40–$90",
+          "image": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=90"
+        }
+      ]
+    },
+    {
+      "id": "nails",
+      "category": "Nail Design",
+      "items": [
+        {
+          "name": "Classic Manicure",
+          "description": "Shaping, cuticle care, and polish of your choice",
+          "duration": "45 min",
+          "price": "$30–$45",
+          "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=90"
+        },
+        {
+          "name": "Gel Manicure",
+          "description": "Long-lasting gel polish with superior shine",
+          "duration": "60 min",
+          "price": "$50–$65",
+          "image": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&q=90"
+        },
+        {
+          "name": "Nail Art Design",
+          "description": "Custom artistic designs and embellishments",
+          "duration": "75 min",
+          "price": "$60–$85",
+          "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=800&q=90"
+        }
+      ]
+    },
+    {
+      "id": "facials",
+      "category": "Facials & Skin Care",
+      "items": [
+        {
+          "name": "Classic Facial",
+          "description": "Deep cleansing, exfoliation, and hydration",
+          "duration": "60 min",
+          "price": "$50–$75",
+          "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=90"
+        },
+        {
+          "name": "Anti-Aging Treatment",
+          "description": "Advanced serums and techniques for youthful skin",
+          "duration": "75 min",
+          "price": "$90–$120",
+          "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=90"
+        },
+        {
+          "name": "Hydrating Facial",
+          "description": "Intensive moisture therapy for dry or sensitive skin",
+          "duration": "60 min",
+          "price": "$65–$85",
+          "image": "https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&q=90"
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "coffee": [
+      {
+        "name": "Espresso",
+        "description": "Single origin, rich and bold",
+        "price": "$3"
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Velvety microfoam with house blend",
+        "price": "$4.50"
+      },
+      {
+        "name": "Latte",
+        "description": "Smooth espresso with steamed milk",
+        "price": "$5"
+      },
+      {
+        "name": "Mocha",
+        "description": "Chocolate and espresso harmony",
+        "price": "$5.50"
+      },
+      {
+        "name": "Cold Brew",
+        "description": "Slow-steeped, smooth and refreshing",
+        "price": "$4.50"
+      }
+    ],
+    "teas": [
+      {
+        "name": "English Breakfast",
+        "description": "Classic black tea blend",
+        "price": "$3.50"
+      },
+      {
+        "name": "Chamomile",
+        "description": "Calming floral infusion",
+        "price": "$3.50"
+      },
+      {
+        "name": "Matcha Latte",
+        "description": "Premium Japanese green tea",
+        "price": "$5.50"
+      }
+    ],
+    "cheesecakes": [
+      {
+        "name": "Classic New York",
+        "description": "Creamy, dense, with graham cracker crust",
+        "price": "$7"
+      },
+      {
+        "name": "Chocolate Decadence",
+        "description": "Rich dark chocolate with ganache",
+        "price": "$8"
+      },
+      {
+        "name": "Berry Bliss",
+        "description": "Fresh berries and lavender-infused cream",
+        "price": "$8.50"
+      },
+      {
+        "name": "Caramel Pecan",
+        "description": "Salted caramel with toasted pecans",
+        "price": "$8.50"
+      }
+    ]
+  },
+  "team": [
+    {
+      "name": "Sofia Martinez",
+      "role": "Master Stylist",
+      "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&q=80",
+      "bio": "15+ years crafting signature looks"
+    },
+    {
+      "name": "Aria Chen",
+      "role": "Nail Artist",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80",
+      "bio": "Award-winning designer specializing in intricate nail art"
+    },
+    {
+      "name": "Maya Patel",
+      "role": "Esthetician",
+      "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=300&q=80",
+      "bio": "Licensed skincare expert with holistic approach"
+    },
+    {
+      "name": "Luca Rossi",
+      "role": "Head Barista",
+      "image": "https://images.unsplash.com/photo-1607503873903-c5e95f80ba9f?w=300&q=80",
+      "bio": "Certified latte artist and coffee connoisseur"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_1280.jpg",
+      "alt": "Elegant salon interior with modern styling stations"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2017/08/06/12/48/woman-2592247_1280.jpg",
+      "alt": "Professional hairstylist cutting hair"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2017/07/31/22/29/beauty-salon-2561845_1280.jpg",
+      "alt": "Beautiful nail art and manicure design"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2016/03/27/07/32/woman-1282393_1280.jpg",
+      "alt": "Relaxing facial treatment and skincare"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2016/11/29/12/54/cafe-1869656_1280.jpg",
+      "alt": "Beautiful latte art in a ceramic cup"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_1280.jpg",
+      "alt": "Delicious cheesecake with berry topping"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg",
+      "alt": "Cozy cafe interior with comfortable seating"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_1280.jpg",
+      "alt": "Hair coloring and highlights service"
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2015/05/07/11/02/coffee-756490_1280.jpg",
+      "alt": "Assorted coffee drinks and espresso"
+    }
+  ]
+}

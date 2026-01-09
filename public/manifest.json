@@ -1,0 +1,16 @@
+{
+  "name": "HMADI - Beauty, Coffee & Cheesecake",
+  "short_name": "HMADI",
+  "description": "Your moment of self-care. Premium salon services, specialty coffee, and delicious cheesecakes.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#8D5A97",
+  "background_color": "#FFF9F5",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

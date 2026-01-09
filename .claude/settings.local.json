@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(node --version:*)",
+      "Bash(unzip:*)",
+      "Bash(/c/Users/1595805/node-v24.12.0-win-x64/node.exe --version)",
+      "Bash(/c/Users/1595805/node-v24.12.0-win-x64/npm.cmd --version)",
+      "Bash(/c/Users/1595805/node-v24.12.0-win-x64/npm.cmd install)",
+      "Bash(export PATH=\"/c/Users/1595805/node-v24.12.0-win-x64:$PATH\")",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
