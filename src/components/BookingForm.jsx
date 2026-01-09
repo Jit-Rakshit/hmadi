@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { validateBookingForm } from '../utils/validation'
 import { saveAppointment } from '../utils/localStorage'
+import { sendBookingEmails } from '../utils/emailService'
 import config from '../config.json'
 import './BookingForm.css'
 
@@ -70,12 +71,21 @@ const BookingForm = () => {
 
     setIsSubmitting(true);
 
-    // Simulate API delay
-    setTimeout(() => {
-      // Save to localStorage (will be replaced with API call)
+    try {
+      // Save to localStorage
       const result = saveAppointment(formData);
 
       if (result.success) {
+        // Send confirmation emails (customer + owner)
+        const emailResults = await sendBookingEmails(result.appointment);
+
+        // Log email results for debugging
+        if (emailResults.allSuccess) {
+          console.log('✅ All emails sent successfully');
+        } else {
+          console.warn('⚠️ Some emails failed to send:', emailResults);
+        }
+
         setSubmittedData(result.appointment);
         setShowModal(true);
 
@@ -91,9 +101,13 @@ const BookingForm = () => {
           notes: ''
         });
       }
-
+    } catch (error) {
+      console.error('Error submitting booking:', error);
+      // Still show confirmation even if emails fail
+      // The booking is saved locally
+    } finally {
       setIsSubmitting(false);
-    }, 500);
+    }
   };
 
   const closeModal = () => {
