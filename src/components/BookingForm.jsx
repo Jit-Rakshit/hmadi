@@ -294,7 +294,7 @@ const BookingForm = () => {
               className="form-textarea"
               value={formData.notes}
               onChange={handleChange}
-              placeholder="Any special requests or information we should know..."
+              placeholder="¿Alguna solicitud especial o información que debamos saber?"
               rows="4"
             ></textarea>
           </div>
