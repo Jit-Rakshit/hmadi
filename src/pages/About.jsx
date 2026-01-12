@@ -11,8 +11,8 @@ const About = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>About HMADI</h1>
-          <p>Where beauty, coffee, and self-care converge</p>
+          <h1>Sobre HMADI</h1>
+          <p>Donde la belleza, el café y el autocuidado convergen</p>
         </div>
       </section>
 
@@ -21,23 +21,23 @@ const About = () => {
         <div className="container">
           <div className="about-content">
             <div className="about-text">
-              <h2>Our Story</h2>
+              <h2>Nuestra Historia</h2>
               <p>
-                Founded by {config.business.owner}, HMADI was born from a simple vision: to create a sanctuary where beauty and
-                indulgence meet. We reimagined the traditional salon experience by adding a
-                cafe element, allowing our guests to savor specialty coffee and artisanal
-                cheesecakes while they wait or simply unwind.
+                Fundado por {config.business.owner}, HMADI nació de una visión simple: crear un santuario donde la belleza y
+                la indulgencia se encuentran. Reimaginamos la experiencia tradicional del salón agregando un
+                elemento de cafetería, permitiendo a nuestros huéspedes saborear café especial y
+                pasteles de queso artesanales mientras esperan o simplemente se relajan.
               </p>
               <p>
-                Since opening our doors, we've been committed to providing premium beauty
-                services using only cruelty-free, high-quality products. Our certified stylists,
-                nail artists, and estheticians bring years of expertise and genuine passion to
-                every appointment.
+                Desde que abrimos nuestras puertas, nos hemos comprometido a brindar servicios de belleza
+                premium utilizando solo productos de alta calidad y libres de crueldad animal. Nuestros estilistas certificados,
+                artistas de uñas y cosmetólogas aportan años de experiencia y pasión genuina a
+                cada cita.
               </p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80"
-              alt="Elegant HMADI salon interior"
+              alt="Elegante interior del salón HMADI"
               loading="lazy"
             />
           </div>
@@ -47,7 +47,7 @@ const About = () => {
       {/* Mission Section */}
       <section className="section about-mission">
         <div className="container">
-          <h2 className="section-title">Our Mission</h2>
+          <h2 className="section-title">Nuestra Misión</h2>
           <div className="mission-grid">
             <div className="mission-card">
               <div className="mission-icon">
@@ -55,10 +55,10 @@ const About = () => {
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                 </svg>
               </div>
-              <h3>Premium Quality</h3>
+              <h3>Calidad Premium</h3>
               <p>
-                We use only the finest products and techniques, ensuring every service meets
-                the highest standards of excellence.
+                Utilizamos solo los mejores productos y técnicas, asegurando que cada servicio cumpla
+                con los más altos estándares de excelencia.
               </p>
             </div>
             <div className="mission-card">
@@ -67,10 +67,10 @@ const About = () => {
                   <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                 </svg>
               </div>
-              <h3>Ethical Practices</h3>
+              <h3>Prácticas Éticas</h3>
               <p>
-                From cruelty-free beauty products to ethically sourced coffee, we're committed
-                to responsible business practices.
+                Desde productos de belleza libres de crueldad animal hasta café de origen ético, estamos comprometidos
+                con prácticas comerciales responsables.
               </p>
             </div>
             <div className="mission-card">
@@ -82,10 +82,10 @@ const About = () => {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
               </div>
-              <h3>Client-Centered Care</h3>
+              <h3>Atención Centrada en el Cliente</h3>
               <p>
-                Your comfort and satisfaction are our top priorities. We listen, customize, and
-                deliver personalized experiences.
+                Tu comodidad y satisfacción son nuestras máximas prioridades. Escuchamos, personalizamos y
+                ofrecemos experiencias adaptadas a ti.
               </p>
             </div>
             <div className="mission-card">
@@ -97,10 +97,10 @@ const About = () => {
                   <line x1="15" y1="9" x2="15.01" y2="9"/>
                 </svg>
               </div>
-              <h3>Holistic Experience</h3>
+              <h3>Experiencia Holística</h3>
               <p>
-                Beyond beauty treatments, we offer a complete self-care experience with our
-                integrated cafe and relaxing atmosphere.
+                Más allá de los tratamientos de belleza, ofrecemos una experiencia completa de autocuidado con nuestra
+                cafetería integrada y atmósfera relajante.
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@ const About = () => {
       {/* Team Section */}
       <section className="section about-team">
         <div className="container">
-          <h2 className="section-title">Meet Our Team</h2>
+          <h2 className="section-title">Conoce a Nuestro Equipo</h2>
           <div className="team-grid">
             {config.team.map((member, index) => (
               <div key={index} className="team-member card">
@@ -135,43 +135,43 @@ const About = () => {
       <section className="section about-values">
         <div className="container">
           <div className="values-content">
-            <h2>Why Choose HMADI?</h2>
+            <h2>¿Por Qué Elegir HMADI?</h2>
             <ul className="values-list">
               <li>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="20 6 9 17 4 12"/>
                 </svg>
-                <span>Premium hygiene standards and sanitized tools</span>
+                <span>Estándares premium de higiene y herramientas sanitizadas</span>
               </li>
               <li>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="20 6 9 17 4 12"/>
                 </svg>
-                <span>Certified and experienced beauty professionals</span>
+                <span>Profesionales de belleza certificados y experimentados</span>
               </li>
               <li>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="20 6 9 17 4 12"/>
                 </svg>
-                <span>100% cruelty-free and eco-conscious products</span>
+                <span>100% libre de crueldad animal y productos eco-conscientes</span>
               </li>
               <li>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="20 6 9 17 4 12"/>
                 </svg>
-                <span>Complimentary specialty coffee with appointments</span>
+                <span>Café especial de cortesía con tus citas</span>
               </li>
               <li>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="20 6 9 17 4 12"/>
                 </svg>
-                <span>Relaxing, Instagram-worthy atmosphere</span>
+                <span>Atmósfera relajante digna de Instagram</span>
               </li>
               <li>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="20 6 9 17 4 12"/>
                 </svg>
-                <span>Flexible scheduling and online booking</span>
+                <span>Horarios flexibles y reservas en línea</span>
               </li>
             </ul>
           </div>

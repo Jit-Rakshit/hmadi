@@ -56,38 +56,38 @@ export const validateBookingForm = (formData) => {
 
   // Name validation
   if (!validateRequired(formData.name)) {
-    errors.name = 'Name is required';
+    errors.name = 'El nombre es requerido';
   }
 
   // Email validation
   if (!validateRequired(formData.email)) {
-    errors.email = 'Email is required';
+    errors.email = 'El correo electrónico es requerido';
   } else if (!validateEmail(formData.email)) {
-    errors.email = 'Please enter a valid email address';
+    errors.email = 'Por favor ingresa un correo electrónico válido';
   }
 
   // Phone validation
   if (!validateRequired(formData.phone)) {
-    errors.phone = 'Phone number is required';
+    errors.phone = 'El número de teléfono es requerido';
   } else if (!validatePhone(formData.phone)) {
-    errors.phone = 'Please enter a valid phone number (at least 10 digits)';
+    errors.phone = 'Por favor ingresa un número de teléfono válido (mínimo 10 dígitos)';
   }
 
   // Service validation
   if (!validateRequired(formData.service)) {
-    errors.service = 'Please select a service';
+    errors.service = 'Por favor selecciona un servicio';
   }
 
   // Date validation
   if (!validateRequired(formData.date)) {
-    errors.date = 'Preferred date is required';
+    errors.date = 'La fecha es requerida';
   } else if (!validateFutureDate(formData.date)) {
-    errors.date = 'Please select a future date';
+    errors.date = 'Por favor selecciona una fecha futura';
   }
 
   // Time validation
   if (!validateRequired(formData.time)) {
-    errors.time = 'Preferred time is required';
+    errors.time = 'La hora es requerida';
   }
 
   return {
