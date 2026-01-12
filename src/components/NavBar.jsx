@@ -48,13 +48,13 @@ const NavBar = () => {
   };
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/services', label: 'Services' },
-    { path: '/cafe', label: 'Cafe' },
-    { path: '/gallery', label: 'Gallery' },
-    { path: '/about', label: 'About' },
-    { path: '/booking', label: 'Booking' },
-    { path: '/contact', label: 'Contact' }
+    { path: '/', label: 'Inicio' },
+    { path: '/services', label: 'Servicios' },
+    { path: '/cafe', label: 'Café' },
+    { path: '/gallery', label: 'Galería' },
+    { path: '/about', label: 'Nosotros' },
+    { path: '/booking', label: 'Reservar' },
+    { path: '/contact', label: 'Contacto' }
   ];
 
   return (

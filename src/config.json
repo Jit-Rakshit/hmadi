@@ -2,12 +2,12 @@
   "business": {
     "name": "HMADI",
     "owner": "Deisy Jefet Rubio Contreras",
-    "tagline": "Beauty, Coffee & Cheesecake—Your moment of self-care.",
-    "phone": "+1 (555) 123-4567",
-    "email": "hello@hmadi.salon",
-    "address": "Av. Inspiración 123, Centro",
+    "tagline": "Belleza, Café y Pastel de Queso—Tu momento de autocuidado.",
+    "phone": "+52 442 123 4567",
+    "email": "hola@hmadi.salon",
+    "address": "Av. Inspiración 123, Centro, Querétaro",
     "hours": {
-      "weekdays": "Tue–Sun",
+      "weekdays": "Mar–Dom",
       "time": "10:00–20:00"
     }
   },
@@ -19,88 +19,88 @@
   "services": [
     {
       "id": "haircuts",
-      "category": "Haircuts & Styling",
+      "category": "Cortes y Peinados",
       "items": [
         {
-          "name": "Women's Haircut",
-          "description": "Expert cut tailored to your style and face shape",
+          "name": "Corte de Cabello Mujer",
+          "description": "Corte experto adaptado a tu estilo y forma de rostro",
           "duration": "60 min",
-          "price": "$45–$65",
+          "price": "$450–$650",
           "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=90"
         },
         {
-          "name": "Men's Haircut",
-          "description": "Classic or modern cuts with precision styling",
+          "name": "Corte de Cabello Hombre",
+          "description": "Cortes clásicos o modernos con peinado de precisión",
           "duration": "45 min",
-          "price": "$25–$40",
+          "price": "$250–$400",
           "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=90"
         },
         {
-          "name": "Color & Highlights",
-          "description": "Premium color treatment with organic products",
+          "name": "Color y Luces",
+          "description": "Tratamiento de color premium con productos orgánicos",
           "duration": "120 min",
-          "price": "$80–$150",
+          "price": "$800–$1,500",
           "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=800&q=90"
         },
         {
-          "name": "Blowout & Styling",
-          "description": "Professional styling for any occasion",
+          "name": "Peinado y Secado",
+          "description": "Peinado profesional para cualquier ocasión",
           "duration": "45 min",
-          "price": "$40–$90",
+          "price": "$400–$900",
           "image": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=90"
         }
       ]
     },
     {
       "id": "nails",
-      "category": "Nail Design",
+      "category": "Diseño de Uñas",
       "items": [
         {
-          "name": "Classic Manicure",
-          "description": "Shaping, cuticle care, and polish of your choice",
+          "name": "Manicure Clásico",
+          "description": "Limado, cuidado de cutícula y esmalte de tu elección",
           "duration": "45 min",
-          "price": "$30–$45",
+          "price": "$300–$450",
           "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=90"
         },
         {
-          "name": "Gel Manicure",
-          "description": "Long-lasting gel polish with superior shine",
+          "name": "Manicure en Gel",
+          "description": "Esmalte en gel de larga duración con brillo superior",
           "duration": "60 min",
-          "price": "$50–$65",
+          "price": "$500–$650",
           "image": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&q=90"
         },
         {
-          "name": "Nail Art Design",
-          "description": "Custom artistic designs and embellishments",
+          "name": "Diseño de Uñas Artístico",
+          "description": "Diseños artísticos personalizados y decoraciones",
           "duration": "75 min",
-          "price": "$60–$85",
+          "price": "$600–$850",
           "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=800&q=90"
         }
       ]
     },
     {
       "id": "facials",
-      "category": "Facials & Skin Care",
+      "category": "Faciales y Cuidado de la Piel",
       "items": [
         {
-          "name": "Classic Facial",
-          "description": "Deep cleansing, exfoliation, and hydration",
+          "name": "Facial Clásico",
+          "description": "Limpieza profunda, exfoliación e hidratación",
           "duration": "60 min",
-          "price": "$50–$75",
+          "price": "$500–$750",
           "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=90"
         },
         {
-          "name": "Anti-Aging Treatment",
-          "description": "Advanced serums and techniques for youthful skin",
+          "name": "Tratamiento Anti-Edad",
+          "description": "Sueros avanzados y técnicas para una piel juvenil",
           "duration": "75 min",
-          "price": "$90–$120",
+          "price": "$900–$1,200",
           "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=90"
         },
         {
-          "name": "Hydrating Facial",
-          "description": "Intensive moisture therapy for dry or sensitive skin",
+          "name": "Facial Hidratante",
+          "description": "Terapia de hidratación intensiva para piel seca o sensible",
           "duration": "60 min",
-          "price": "$65–$85",
+          "price": "$650–$850",
           "image": "https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&q=90"
         }
       ]
@@ -110,132 +110,132 @@
     "coffee": [
       {
         "name": "Espresso",
-        "description": "Single origin, rich and bold",
-        "price": "$3"
+        "description": "Origen único, rico y audaz",
+        "price": "$30"
       },
       {
         "name": "Cappuccino",
-        "description": "Velvety microfoam with house blend",
-        "price": "$4.50"
+        "description": "Microespuma aterciopelada con nuestra mezcla especial",
+        "price": "$45"
       },
       {
         "name": "Latte",
-        "description": "Smooth espresso with steamed milk",
-        "price": "$5"
+        "description": "Espresso suave con leche vaporizada",
+        "price": "$50"
       },
       {
         "name": "Mocha",
-        "description": "Chocolate and espresso harmony",
-        "price": "$5.50"
+        "description": "Armonía de chocolate y espresso",
+        "price": "$55"
       },
       {
         "name": "Cold Brew",
-        "description": "Slow-steeped, smooth and refreshing",
-        "price": "$4.50"
+        "description": "Preparado lento, suave y refrescante",
+        "price": "$45"
       }
     ],
     "teas": [
       {
-        "name": "English Breakfast",
-        "description": "Classic black tea blend",
-        "price": "$3.50"
+        "name": "Té Negro Inglés",
+        "description": "Mezcla clásica de té negro",
+        "price": "$35"
       },
       {
-        "name": "Chamomile",
-        "description": "Calming floral infusion",
-        "price": "$3.50"
+        "name": "Manzanilla",
+        "description": "Infusión floral calmante",
+        "price": "$35"
       },
       {
         "name": "Matcha Latte",
-        "description": "Premium Japanese green tea",
-        "price": "$5.50"
+        "description": "Té verde japonés premium",
+        "price": "$55"
       }
     ],
     "cheesecakes": [
       {
-        "name": "Classic New York",
-        "description": "Creamy, dense, with graham cracker crust",
-        "price": "$7"
+        "name": "Cheesecake New York Clásico",
+        "description": "Cremoso, denso, con base de galleta",
+        "price": "$70"
       },
       {
-        "name": "Chocolate Decadence",
-        "description": "Rich dark chocolate with ganache",
-        "price": "$8"
+        "name": "Chocolate Decadente",
+        "description": "Chocolate oscuro intenso con ganache",
+        "price": "$80"
       },
       {
-        "name": "Berry Bliss",
-        "description": "Fresh berries and lavender-infused cream",
-        "price": "$8.50"
+        "name": "Frutos Rojos",
+        "description": "Bayas frescas y crema infusionada con lavanda",
+        "price": "$85"
       },
       {
-        "name": "Caramel Pecan",
-        "description": "Salted caramel with toasted pecans",
-        "price": "$8.50"
+        "name": "Cajeta y Nuez",
+        "description": "Cajeta con nueces tostadas",
+        "price": "$85"
       }
     ]
   },
   "team": [
     {
-      "name": "Sofia Martinez",
-      "role": "Master Stylist",
+      "name": "Sofía Martínez",
+      "role": "Estilista Principal",
       "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&q=80",
-      "bio": "15+ years crafting signature looks"
+      "bio": "Más de 15 años creando looks exclusivos"
     },
     {
-      "name": "Aria Chen",
-      "role": "Nail Artist",
+      "name": "María García",
+      "role": "Artista de Uñas",
       "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80",
-      "bio": "Award-winning designer specializing in intricate nail art"
+      "bio": "Diseñadora galardonada especializada en nail art complejo"
     },
     {
-      "name": "Maya Patel",
-      "role": "Esthetician",
+      "name": "Ana López",
+      "role": "Cosmetóloga",
       "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=300&q=80",
-      "bio": "Licensed skincare expert with holistic approach"
+      "bio": "Experta en cuidado de la piel con enfoque holístico"
     },
     {
-      "name": "Luca Rossi",
-      "role": "Head Barista",
+      "name": "Carlos Ramírez",
+      "role": "Barista Principal",
       "image": "https://images.unsplash.com/photo-1607503873903-c5e95f80ba9f?w=300&q=80",
-      "bio": "Certified latte artist and coffee connoisseur"
+      "bio": "Artista certificado de latte art y conocedor de café"
     }
   ],
   "gallery": [
     {
       "url": "https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876_1280.jpg",
-      "alt": "Elegant salon interior with modern styling stations"
+      "alt": "Elegante interior del salón con estaciones de peinado modernas"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2017/08/06/12/48/woman-2592247_1280.jpg",
-      "alt": "Professional hairstylist cutting hair"
+      "alt": "Estilista profesional cortando cabello"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2017/07/31/22/29/beauty-salon-2561845_1280.jpg",
-      "alt": "Beautiful nail art and manicure design"
+      "alt": "Hermoso diseño de uñas artísticas y manicure"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2016/03/27/07/32/woman-1282393_1280.jpg",
-      "alt": "Relaxing facial treatment and skincare"
+      "alt": "Relajante tratamiento facial y cuidado de la piel"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2016/11/29/12/54/cafe-1869656_1280.jpg",
-      "alt": "Beautiful latte art in a ceramic cup"
+      "alt": "Hermoso arte latte en taza de cerámica"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_1280.jpg",
-      "alt": "Delicious cheesecake with berry topping"
+      "alt": "Delicioso cheesecake con cubierta de frutos rojos"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg",
-      "alt": "Cozy cafe interior with comfortable seating"
+      "alt": "Acogedor interior de cafetería con asientos cómodos"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_1280.jpg",
-      "alt": "Hair coloring and highlights service"
+      "alt": "Servicio de coloración y luces para cabello"
     },
     {
       "url": "https://cdn.pixabay.com/photo/2015/05/07/11/02/coffee-756490_1280.jpg",
-      "alt": "Assorted coffee drinks and espresso"
+      "alt": "Variedad de bebidas de café y espresso"
     }
   ]
 }
