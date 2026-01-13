@@ -11,8 +11,8 @@ const Booking = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>Book Your Appointment</h1>
-          <p>Reserve your moment of self-care</p>
+          <h1>Reserva tu Cita</h1>
+          <p>Reserva tu momento de autocuidado</p>
         </div>
       </section>
 
@@ -20,22 +20,22 @@ const Booking = () => {
       <section className="section">
         <div className="container">
           <div className="booking-intro">
-            <h2>What to Expect</h2>
+            <h2>Qué Esperar</h2>
             <div className="booking-steps">
               <div className="booking-step">
                 <div className="step-number">1</div>
-                <h3>Fill Out the Form</h3>
-                <p>Tell us about the service you'd like and your preferred date and time.</p>
+                <h3>Llena el Formulario</h3>
+                <p>Cuéntanos sobre el servicio que te gustaría y tu fecha y hora preferida.</p>
               </div>
               <div className="booking-step">
                 <div className="step-number">2</div>
-                <h3>We'll Confirm</h3>
-                <p>Our team will reach out via email or phone to confirm your appointment.</p>
+                <h3>Confirmaremos</h3>
+                <p>Nuestro equipo se pondrá en contacto por correo o teléfono para confirmar tu cita.</p>
               </div>
               <div className="booking-step">
                 <div className="step-number">3</div>
-                <h3>Enjoy Your Visit</h3>
-                <p>Arrive and relax. We'll take care of everything, including complimentary coffee!</p>
+                <h3>Disfruta tu Visita</h3>
+                <p>Llega y relájate. Nos encargaremos de todo, ¡incluyendo café de cortesía!</p>
               </div>
             </div>
           </div>
@@ -49,11 +49,11 @@ const Booking = () => {
       <section className="section booking-policy">
         <div className="container">
           <div className="policy-box">
-            <h3>Cancellation Policy</h3>
+            <h3>Política de Cancelación</h3>
             <p>
-              We understand plans change. Please give us at least 24 hours notice if you need
-              to reschedule or cancel your appointment. This allows us to accommodate other guests.
-              Thank you for your understanding!
+              Entendemos que los planes cambian. Por favor avísanos con al menos 24 horas de anticipación si necesitas
+              reprogramar o cancelar tu cita. Esto nos permite acomodar a otros clientes.
+              ¡Gracias por tu comprensión!
             </p>
           </div>
         </div>
