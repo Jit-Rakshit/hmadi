@@ -8,17 +8,17 @@ import './Cafe.css'
 const Cafe = () => {
   const menuSections = [
     {
-      title: 'Specialty Coffee',
+      title: 'Café Especial',
       items: config.menu.coffee,
       image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80'
     },
     {
-      title: 'Premium Teas',
+      title: 'Tés Premium',
       items: config.menu.teas,
       image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80'
     },
     {
-      title: 'Artisanal Cheesecakes',
+      title: 'Pasteles de Queso Artesanales',
       items: config.menu.cheesecakes,
       image: 'https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=800&q=80'
     }
@@ -29,8 +29,8 @@ const Cafe = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>Cafe Menu</h1>
-          <p>Indulge in specialty coffee and handcrafted cheesecakes</p>
+          <h1>Menú del Café</h1>
+          <p>Disfruta de café especial y pasteles de queso artesanales</p>
         </div>
       </section>
 
@@ -39,17 +39,17 @@ const Cafe = () => {
         <div className="container">
           <div className="cafe-intro-content">
             <div className="cafe-intro-text">
-              <h2>A Cafe Within Your Sanctuary</h2>
+              <h2>Un Café Dentro de Tu Santuario</h2>
               <p>
-                At HMADI, we believe self-care extends beyond beauty treatments. Our cafe serves
-                premium coffee sourced from ethical farms, loose-leaf teas, and cheesecakes made
-                fresh daily by our in-house pastry team. Whether you're waiting for your appointment
-                or simply stopping by, enjoy a moment of indulgence.
+                En HMADI, creemos que el autocuidado va más allá de los tratamientos de belleza. Nuestro café sirve
+                café premium de granjas éticas, tés de hojas sueltas y pasteles de queso hechos
+                frescos diariamente por nuestro equipo de repostería. Ya sea que estés esperando tu cita
+                o simplemente pases a visitarnos, disfruta un momento de indulgencia.
               </p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80"
-              alt="Cozy cafe interior with comfortable seating"
+              alt="Acogedor interior del café con asientos cómodos"
               loading="lazy"
             />
           </div>
@@ -92,11 +92,11 @@ const Cafe = () => {
       <section className="section cafe-cta">
         <div className="container">
           <div className="cta-box">
-            <h2>Visit Our Cafe Today</h2>
-            <p>Walk-ins welcome! Or book a beauty appointment and enjoy complimentary coffee.</p>
+            <h2>Visita Nuestro Café Hoy</h2>
+            <p>¡Aceptamos clientes sin cita! O reserva una cita de belleza y disfruta café de cortesía.</p>
             <div className="cafe-cta-buttons">
-              <a href="#visit" className="btn btn-primary">Find Us</a>
-              <a href="/booking" className="btn btn-secondary">Book Appointment</a>
+              <a href="#visit" className="btn btn-primary">Encuéntranos</a>
+              <a href="/booking" className="btn btn-secondary">Reservar Cita</a>
             </div>
           </div>
         </div>

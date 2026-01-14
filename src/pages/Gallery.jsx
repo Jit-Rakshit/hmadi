@@ -28,8 +28,8 @@ const Gallery = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>Gallery</h1>
-          <p>Explore our work and the HMADI experience</p>
+          <h1>Galería</h1>
+          <p>Explora nuestro trabajo y la experiencia HMADI</p>
         </div>
       </section>
 
@@ -62,8 +62,8 @@ const Gallery = () => {
       <section className="section gallery-cta">
         <div className="container">
           <div className="cta-box">
-            <h2>Like What You See?</h2>
-            <p>Follow us on Instagram for daily inspiration and behind-the-scenes content.</p>
+            <h2>¿Te Gusta lo que Ves?</h2>
+            <p>Síguenos en Instagram para inspiración diaria y contenido detrás de cámaras.</p>
             <div className="gallery-cta-buttons">
               <a
                 href={config.social.instagram}
@@ -71,9 +71,9 @@ const Gallery = () => {
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Follow on Instagram
+                Seguir en Instagram
               </a>
-              <a href="/booking" className="btn btn-secondary">Book Your Transformation</a>
+              <a href="/booking" className="btn btn-secondary">Reserva tu Transformación</a>
             </div>
           </div>
         </div>

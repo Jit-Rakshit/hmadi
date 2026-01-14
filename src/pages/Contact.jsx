@@ -11,8 +11,8 @@ const Contact = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>Contact Us</h1>
-          <p>We'd love to hear from you</p>
+          <h1>Contáctanos</h1>
+          <p>Nos encantaría saber de ti</p>
         </div>
       </section>
 
@@ -22,9 +22,9 @@ const Contact = () => {
           <div className="contact-grid">
             {/* Contact Details */}
             <div className="contact-info">
-              <h2>Get In Touch</h2>
+              <h2>Ponte en Contacto</h2>
               <p className="contact-intro">
-                Have questions? Want to book an appointment? Our friendly team is here to help.
+                ¿Tienes preguntas? ¿Quieres reservar una cita? Nuestro amable equipo está aquí para ayudarte.
               </p>
 
               <div className="contact-methods">
@@ -36,7 +36,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3>Visit Us</h3>
+                    <h3>Visítanos</h3>
                     <p>{config.business.address}</p>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3>Call Us</h3>
+                    <h3>Llámanos</h3>
                     <p><a href={`tel:${config.business.phone}`}>{config.business.phone}</a></p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3>Email Us</h3>
+                    <h3>Escríbenos</h3>
                     <p><a href={`mailto:${config.business.email}`}>{config.business.email}</a></p>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3>Opening Hours</h3>
+                    <h3>Horario de Atención</h3>
                     <p>
                       {config.business.hours.weekdays}<br />
                       {config.business.hours.time}
@@ -85,7 +85,7 @@ const Contact = () => {
 
               {/* Social Links */}
               <div className="contact-social">
-                <h3>Follow Us</h3>
+                <h3>Síguenos</h3>
                 <div className="social-links">
                   <a
                     href={config.social.instagram}
@@ -133,10 +133,10 @@ const Contact = () => {
                 </svg>
                 <p>
                   <strong>Av. Inspiración 123, Centro</strong><br />
-                  Map integration placeholder
+                  Marcador de posición para mapa
                 </p>
                 <p className="map-note">
-                  Replace this div with an embedded Google Maps iframe or Mapbox integration
+                  Reemplaza este div con un iframe de Google Maps o integración de Mapbox
                 </p>
               </div>
               {/* TODO: Add actual map embed */}
@@ -161,9 +161,9 @@ const Contact = () => {
       <section className="section contact-cta">
         <div className="container">
           <div className="cta-box">
-            <h2>Ready to Book?</h2>
-            <p>Schedule your appointment online for the fastest confirmation.</p>
-            <a href="/booking" className="btn btn-primary">Book Now</a>
+            <h2>¿Lista para Reservar?</h2>
+            <p>Agenda tu cita en línea para la confirmación más rápida.</p>
+            <a href="/booking" className="btn btn-primary">Reservar Ahora</a>
           </div>
         </div>
       </section>

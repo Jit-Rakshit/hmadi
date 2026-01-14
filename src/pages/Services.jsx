@@ -11,7 +11,7 @@ const Services = () => {
   const [activeCategory, setActiveCategory] = useState('all');
 
   const categories = [
-    { id: 'all', label: 'All Services' },
+    { id: 'all', label: 'Todos los Servicios' },
     ...config.services.map(cat => ({ id: cat.id, label: cat.category }))
   ];
 
@@ -24,8 +24,8 @@ const Services = () => {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>Our Services</h1>
-          <p>Premium beauty treatments tailored to your needs</p>
+          <h1>Nuestros Servicios</h1>
+          <p>Tratamientos de belleza premium adaptados a tus necesidades</p>
         </div>
       </section>
 
@@ -77,7 +77,7 @@ const Services = () => {
                         </div>
                       </div>
                       <Link to="/booking" className="btn btn-primary" style={{ width: '100%', marginTop: '1rem' }}>
-                        Book This Service
+                        Reservar Este Servicio
                       </Link>
                     </div>
                   </div>
@@ -92,9 +92,9 @@ const Services = () => {
       <section className="services-cta section">
         <div className="container">
           <div className="cta-box">
-            <h2>Not sure which service is right for you?</h2>
-            <p>Our expert team is here to help you choose the perfect treatment.</p>
-            <Link to="/contact" className="btn btn-secondary">Contact Us</Link>
+            <h2>¿No estás segura de cuál servicio es para ti?</h2>
+            <p>Nuestro equipo experto está aquí para ayudarte a elegir el tratamiento perfecto.</p>
+            <Link to="/contact" className="btn btn-secondary">Contáctanos</Link>
           </div>
         </div>
       </section>
